@@ -1,0 +1,11 @@
+> 3 Sum: Hard
+1.Sort the array
+2.Inside a for loop put two pointers for y (j) and z (k), while x (i) is handled by the loop itself
+3.i from 0, j from i + 1 position and k from n - 1 
+4.sum = x + y + z
+5.If equal to target, add to list s
+6.If sum < 0: j++
+7.Else k--
+8.Return array
+Eg: nums = [-1,0,1,2,-1,-4]
+Output: [[-1,-1,2],[-1,0,1]]
