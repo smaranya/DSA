@@ -1,0 +1,13 @@
+Leaders in an Array: Medium
+
+Traverse array from end, since last element will always be a leader
+If greater value, then add to result
+Else continue
+Reverse array and run
+
+Longest Consecutive Sequence: Medium
+
+Add elements to HashSet
+Check for previous element of sequence and if present, start counting
+Chek for longest sequence since that number
+Return the longest sequence length
